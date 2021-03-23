@@ -5,7 +5,7 @@ body {
   font-family: monospace;
 }
 
-form {
+#h1-form {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -16,40 +16,11 @@ form {
   border: dashed 5px #415B76;
 }
 
-.form h1 {
+h1 {
   float: left;
   font-size: 40;
   border-bottom: solid 6px;
   margin-bottom: 50px;
   padding: 13px 0;
   color: #2ecc71;
-
-}
-.form input {
-  width: 90%;
-  overflow: hidden;
-  font-size: 20px;
-  padding: 8px 0;
-  margin: 8px 0;
-  border-bottom: solid 1px;
-  text-align: center;
-  background: none;
-  border: none;
-  color: #bdc3c7;
-  border: solid 2px #2ecc71;
-  border-radius: 20px;
-  transition: 250ms;
-  outline: none;
-}
-.form input[type="button"] {
-  cursor: pointer;
-}
-.form input[type="button"]:hover, .form input[type="button"]:focus {
-  background: #2ecc71;
-  border-radius: 10px;
-}
-
-.form input:focus {
-  color: white;
-  border-radius: 10px;
 }
