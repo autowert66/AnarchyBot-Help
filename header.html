@@ -7,26 +7,7 @@
   <title>In development</title>
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.png">
   <script src="https://kit.fontawesome.com/6e4e410797.js" crossorigin="anonymous"></script>
-  <script
-      src="https://code.jquery.com/jquery-3.3.1.js"
-      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-      crossorigin="anonymous">
-  </script>
-  <script>
-  $(function(){
-    $("#header").load("header.html");
-    $("#footer").load("footer.html");
-  });
-  </script>
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: monospace;
-      background: #282C34;
-      color: white;
-    }
-
     .header {
       padding: 80px;
       text-align: center;
@@ -68,19 +49,19 @@
       background-color: #666;
       color: white;
     }
-
-    .footer {
-      padding: 20px;
-      text-align: center;
-      background: #ddd;
-    }
   </style>
 </head>
 
 <body>
-  <div id="header"></div>
+  <div class="header">
+    <h1>AnarchyBot Help</h1>
+    <p>The Help-website for my Bot.</p>
+  </div>
 
-  <h1>hi<br />hi<br />hi<br />hi<br />hi<br />hi<br />hi<br />hi<br />hi<br />hi<br />hi<br />hi<br />hi<br />>hi<br />hi<br />hi<br />hi<br />hi<br />hi<br />hi<br />hi<br />hi<br />hi<br />hi<br />hi<br />hi<br /></h1>
-
-  <div id="footer"></div>
+  <div class="navbar">
+    <a href="#" class="active">Home</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#" class="right">Link</a>
+  </div>
 </body>
