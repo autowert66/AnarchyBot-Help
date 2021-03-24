@@ -14,11 +14,12 @@
   </script>
   <script>
   $(function(){
-    $("#header").load("header.html");
+    $("#header").load("header.html").then(
+    window.scrollTo(0, 0));
+    // try to fix wrong scroll position)
+    gay
     $("#footer").load("footer.html");
     $("#navbar").load("navbar.html");
-    window.scrollTo(0, 0);
-    // try to fix wrong scroll position
   });
   </script>
   <style>
