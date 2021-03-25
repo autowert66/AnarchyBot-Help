@@ -15,19 +15,7 @@ body {
 .content {
   margin: 10px;
 }
-
-/* header */
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #2ecc71;
-  color: #ecf0f1;
-}
-
-.header h1 {
-  font-size: 40px;
-}
-.navbar a.home {
+.navbar a.faq {
   background-color: #666;
   color: white;
 }

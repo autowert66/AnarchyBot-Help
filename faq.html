@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title and favicon -->
+  <title>AnarchyBot FAQ</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+  <!-- load fontawesome -->
+  <script src="https://kit.fontawesome.com/6e4e410797.js" crossorigin="anonymous"></script>
+  <!-- load navbar.html and footer.html -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script>
+    $(function() {
+      $("#navbar").load("./assets/html/navbar.html");
+      $("#footer").load("./assets/html/footer.html");
+    });
+  </script>
+  <!-- load styles -->
+  <link rel="stylesheet" href="./assets/css/faq.css" />
+  <link rel="stylesheet" href="./assets/css/md.css" />
+</head>
+
+<body>
+  <!-- Navigation Bar - edit ./assets/html/navbar.html -->
+  <div id="navbar"></div>
+  <!-- Main content -->
+  <div class="content md">
+    <h2>FAQ</h2>
+<h3>Frequently Asked Questions</h3>
+<ul>
+<li>Can you add &lt;Feature&gt;?<br>
+Maybe i can. <a href="https://anarchybot.ga/#contact">Contact me!</a></li>
+<li>Can you host your Bot on &lt;Server&gt;?<br>
+No. I only host it on servers I play. But you can host your <a href="https://github.com/VeryBigSad/unnamedBot">own Bot</a>.</li>
+<li>Is there a Discord Server for your Bot?<br>
+No, not rn. But I want to do that soon.</li>
+<li>Can i have a Kit?<br>
+<strong style="text-decoration: underline;">NO!</strong></li>
+</ul>
+  </div>
+  <!-- footer - edit ./assets/html/footer.html -->
+  <div id="footer"></div>
+</body>
