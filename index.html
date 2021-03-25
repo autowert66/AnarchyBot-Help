@@ -20,7 +20,6 @@
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script>
     $(function() {
-      $("#header").load("./assets/html/header.html");
       $("#navbar").load("./assets/html/navbar.html");
       $("#footer").load("./assets/html/footer.html");
     });
@@ -31,7 +30,10 @@
 </head>
 
 <body>
-  <div id="header"></div>
+  <div class="header">
+    <h1>AnarchyBot Help<br /><i class="fas fa-question-circle"></i></h1>
+    <p>The Help-website for my Bot.</p>
+  </div>
   <div id="navbar"></div>
   <div class="content md">
     <h2 class="code-line" data-line-start=0 data-line-end=1><a id="Anarchy_Bot_0"></a>Anarchy Bot</h2>
