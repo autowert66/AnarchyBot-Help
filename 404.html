@@ -1,50 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>In development</title>
-  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.png">
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-  </script>
+  <!-- Title and favicon -->
+  <title>ERROR 404</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png">
+  <!-- load fontawesome -->
+  <script src="https://kit.fontawesome.com/6e4e410797.js" crossorigin="anonymous"></script>
+  <!-- import navbar.html and footer.html -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script>
     $(function() {
       $("#footer").load("footer.html");
       $("#navbar").load("navbar.html");
     });
   </script>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: #34495e;
-      font-family: monospace;
-    }
-
-    h1 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      border-bottom: solid 6px;
-      margin-bottom: 50px;
-      color: #2ecc71;
-    }
-
-    #navbar {
-      position: sticky;
-      position: -webkit-sticky;
-      top: 0;
-    }
-
-    #footer {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+  <!-- load styles -->
+  <link rel="stylesheet" href="./assets/css/404.css"/>
+  <link rel="stylesheet" href="./assets/css/md.css" />
 </head>
 
 <body>
