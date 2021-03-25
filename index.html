@@ -5,16 +5,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Discord Embed -->
   <meta property="og:title" content="AnarchyBot Help">
   <meta property="og:type" content="website">
   <meta property="og:description" content="Help-Website for my Minecraft-Bot.">
-<meta property="og:image" content="./assets/bedrock.png">
+  <meta property="og:image" content="./assets/bedrock.png">
   <meta property="og:url" content="https://anarchybot.ga">
+  <!-- Title and favicon -->
   <title>In development</title>
   <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png">
+  <!-- load fontawesome -->
   <script src="https://kit.fontawesome.com/6e4e410797.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-  </script>
+  <!-- import header.html, navbar.html and footer.html -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script>
     $(function() {
       $("#header").load("header.html");
@@ -22,26 +25,9 @@
       $("#navbar").load("navbar.html");
     });
   </script>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: monospace;
-      background: #282C34;
-      color: #ecf0f1;
-    }
-
-    #navbar {
-      position: sticky;
-      position: -webkit-sticky;
-      top: 0;
-    }
-
-    .content {
-      margin: 10px;
-    }
-  </style>
-  <link rel="stylesheet" href="./md.css"/>
+  <!-- load styles -->
+  <link rel="stylesheet" href="./assets/css/index.css"/>
+  <link rel="stylesheet" href="./assets/css/md.css" />
 </head>
 
 <body>
