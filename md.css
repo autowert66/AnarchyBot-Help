@@ -1,0 +1,43 @@
+.md h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #e74c3c;
+}
+
+.md h3 {
+  font-size: 25px;
+  color: #c0392b;
+}
+
+.md a:link,
+.md a:visited {
+  padding: 2px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.md a:link:hover,
+.md a:visited:hover {
+  background: #2c3e50;
+  color: #2980b9;
+  text-decoration: underline;
+  border-radius: 5px;
+}
+
+.md li,
+.md p {
+  font-size: 15px;
+}
+
+.md strong {
+  padding: 4px;
+  font-size: 16px;
+}
+
+.md code {
+  background: #2c3e50;
+  padding: 2px;
+  border-radius: 5px;
+  color: #e74c3c;
+  font-weight: bold;
+}
