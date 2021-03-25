@@ -14,6 +14,10 @@
       $("#header").load("header.html");
       $("#footer").load("footer.html");
       $("#navbar").load("navbar.html");
+      $(document).ready(function() {
+        $(this).scrollTop(0);
+      });
+      // try to fix wrong scroll position
     });
   </script>
   <style>
@@ -46,55 +50,55 @@
   <div id="header"></div>
   <div id="navbar"></div>
   <div class="content">
-    <h2 class="code-line" data-line-start=0 data-line-end=1><a id="AnarchyBot_0"></a>AnarchyBot</h2>
-    <p class="has-line-data" data-line-start="1" data-line-end="2">Welcome to the Help page of my Minecraft Bot. You can find a command list, a change log and more information here.</p>
-    <h2 class="code-line" data-line-start=2 data-line-end=3><a id="Commands_2"></a>Commands</h2>
-    <h3 class="code-line" data-line-start=3 data-line-end=4><a id="Info_3"></a>Info</h3>
+    <h2 data-line-start=0 data-line-end=1><a id="AnarchyBot_0"></a>AnarchyBot</h2>
+    <p data-line-start="1" data-line-end="2">Welcome to the Help page of my Minecraft Bot. You can find a command list, a change log and more information here.</p>
+    <h2 data-line-start=2 data-line-end=3><a id="Commands_2"></a>Commands</h2>
+    <h3 data-line-start=3 data-line-end=4><a id="Info_3"></a>Info</h3>
     <ul>
-      <li class="has-line-data" data-line-start="4" data-line-end="5">help: Shows this help file.</li>
-      <li class="has-line-data" data-line-start="5" data-line-end="6">ping: Shows your or someone elses ping.</li>
-      <li class="has-line-data" data-line-start="6" data-line-end="7">oldnames || on: showa the last 3 names from someone.</li>
-      <li class="has-line-data" data-line-start="7" data-line-end="8">skin: sends you the link to someone’s skin.</li>
-      <li class="has-line-data" data-line-start="8" data-line-end="9">bp: shows the player with the best ping.</li>
-      <li class="has-line-data" data-line-start="9" data-line-end="10">wp: shows the player with the worst ping.</li>
-      <li class="has-line-data" data-line-start="10" data-line-end="11">sleep: tells you if you can sleep or not.</li>
-      <li class="has-line-data" data-line-start="11" data-line-end="12">rules: no. NO!</li>
-      <li class="has-line-data" data-line-start="12" data-line-end="13">namemc || nm: shows the link to someone’s namemc profile.</li>
+      <li data-line-start="4" data-line-end="5">help: Shows this help file.</li>
+      <li data-line-start="5" data-line-end="6">ping: Shows your or someone elses ping.</li>
+      <li data-line-start="6" data-line-end="7">oldnames || on: showa the last 3 names from someone.</li>
+      <li data-line-start="7" data-line-end="8">skin: sends you the link to someone’s skin.</li>
+      <li data-line-start="8" data-line-end="9">bp: shows the player with the best ping.</li>
+      <li data-line-start="9" data-line-end="10">wp: shows the player with the worst ping.</li>
+      <li data-line-start="10" data-line-end="11">sleep: tells you if you can sleep or not.</li>
+      <li data-line-start="11" data-line-end="12">rules: no. NO!</li>
+      <li data-line-start="12" data-line-end="13">namemc || nm: shows the link to someone’s namemc profile.</li>
     </ul>
-    <h3 class="code-line" data-line-start=13 data-line-end=14><a id="Admin_13"></a>Admin</h3>
+    <h3 data-line-start=13 data-line-end=14><a id="Admin_13"></a>Admin</h3>
     <ul>
-      <li class="has-line-data" data-line-start="14" data-line-end="15">echo: repeats your text.</li>
-      <li class="has-line-data" data-line-start="15" data-line-end="16">tpto: send a tpa to someone.</li>
-      <li class="has-line-data" data-line-start="16" data-line-end="17">big: OwO big text!</li>
-      <li class="has-line-data" data-line-start="17" data-line-end="18">kill: <code>/kill</code>!</li>
+      <li data-line-start="14" data-line-end="15">echo: repeats your text.</li>
+      <li data-line-start="15" data-line-end="16">tpto: send a tpa to someone.</li>
+      <li data-line-start="16" data-line-end="17">big: OwO big text!</li>
+      <li data-line-start="17" data-line-end="18">kill: <code>/kill</code>!</li>
     </ul>
-    <h3 class="code-line" data-line-start=18 data-line-end=19><a id="Misc_18"></a>Misc</h3>
+    <h3 data-line-start=18 data-line-end=19><a id="Misc_18"></a>Misc</h3>
     <ul>
-      <li class="has-line-data" data-line-start="19" data-line-end="20">fact: shows you a random fact. You can also do <code>fact de</code> for a german fact. <a href="https://uselessfacts.jsph.pl/random.json?language=en">API</a></li>
-      <li class="has-line-data" data-line-start="20" data-line-end="21">urban: gives you the <a href="https://www.urbandictionary.com/"><em>Urban Definiton</em></a> of a word.</li>
-      <li class="has-line-data" data-line-start="21" data-line-end="22">yes: <code>YES!</code></li>
-      <li class="has-line-data" data-line-start="22" data-line-end="23">no: <em>guess what…</em></li>
-      <li class="has-line-data" data-line-start="23" data-line-end="24">queue: gives you the 2b2t queue lenth.</li>
-      <li class="has-line-data" data-line-start="24" data-line-end="25">2bseen: lastseen for 2b2t.</li>
-      <li class="has-line-data" data-line-start="25" data-line-end="26">2bstates: shows you the kills and deaths from a player on 2b2t.</li>
+      <li data-line-start="19" data-line-end="20">fact: shows you a random fact. You can also do <code>fact de</code> for a german fact. <a href="https://uselessfacts.jsph.pl/random.json?language=en">API</a></li>
+      <li data-line-start="20" data-line-end="21">urban: gives you the <a href="https://www.urbandictionary.com/"><em>Urban Definiton</em></a> of a word.</li>
+      <li data-line-start="21" data-line-end="22">yes: <code>YES!</code></li>
+      <li data-line-start="22" data-line-end="23">no: <em>guess what…</em></li>
+      <li data-line-start="23" data-line-end="24">queue: gives you the 2b2t queue lenth.</li>
+      <li data-line-start="24" data-line-end="25">2bseen: lastseen for 2b2t.</li>
+      <li data-line-start="25" data-line-end="26">2bstates: shows you the kills and deaths from a player on 2b2t.</li>
     </ul>
-    <h2 class="code-line" data-line-start=26 data-line-end=27><a id="Other_Stuff_26"></a>Other Stuff</h2>
-    <h3 class="code-line" data-line-start=27 data-line-end=28><a id="To_Do_27"></a>To Do</h3>
+    <h2 data-line-start=26 data-line-end=27><a id="Other_Stuff_26"></a>Other Stuff</h2>
+    <h3 data-line-start=27 data-line-end=28><a id="To_Do_27"></a>To Do</h3>
     <ul>
-      <li class="has-line-data" data-line-start="28" data-line-end="29">I want to clone all the <a href="https://www.moobot.dev/">moobot</a> commands. <em>I am lazy af so i dont think this will happen soon.</em></li>
-      <li class="has-line-data" data-line-start="29" data-line-end="30">I also want to make a good looking help <a href="https://anarchybot.ga">WebSite</a> <em>I started learning <a href="https://en.wikipedia.org/wiki/HTML">HTML</a> and <a
+      <li data-line-start="28" data-line-end="29">I want to clone all the <a href="https://www.moobot.dev/">moobot</a> commands. <em>I am lazy af so i dont think this will happen soon.</em></li>
+      <li data-line-start="29" data-line-end="30">I also want to make a good looking help <a href="https://anarchybot.ga">WebSite</a> <em>I started learning <a href="https://en.wikipedia.org/wiki/HTML">HTML</a> and <a
             href="https://en.wikipedia.org/wiki/CSS">CSS</a> a few days ago so dont expect much.</em></li>
-      <li class="has-line-data" data-line-start="30" data-line-end="31">Discord Server with chat Bridge. <em>I dont know an excuse for that.</em></li>
+      <li data-line-start="30" data-line-end="31">Discord Server with chat Bridge. <em>I dont know an excuse for that.</em></li>
     </ul>
-    <h3 class="code-line" data-line-start=31 data-line-end=32><a id="Contact_Me_31"></a>Contact Me</h3>
-    <p class="has-line-data" data-line-start="32" data-line-end="33">If you know a problem, want to suggest something or ask a question, you can contact me:</p>
+    <h3 data-line-start=31 data-line-end=32><a id="Contact_Me_31"></a>Contact Me</h3>
+    <p data-line-start="32" data-line-end="33">If you know a problem, want to suggest something or ask a question, you can contact me:</p>
     <ul>
-      <li class="has-line-data" data-line-start="34" data-line-end="35">Discord: <code>autowert66#8065</code></li>
-      <li class="has-line-data" data-line-start="35" data-line-end="37">E-Mail: <code>**********@*****.***</code> <em>lol i wont leak that.</em></li>
+      <li data-line-start="34" data-line-end="35">Discord: <code>autowert66#8065</code></li>
+      <li data-line-start="35" data-line-end="38">E-Mail: <code>**********@*****.***</code> <em>lol i wont leak that.</em><br>
+        <em>You can also contact me if you dont have a problem.</em><br>
+        <em>I am sure we could find one.</em>
+      </li>
     </ul>
-    <p class="has-line-data" data-line-start="37" data-line-end="39"><em>You can also contact me if you dont have a problem.</em><br>
-      <em>I am sure we could find one.</em>
-    </p>
   </div>
   <div id="footer"></div>
 </body>
